@@ -1,0 +1,22 @@
+1624013587262	geckodriver	INFO	Listening on 127.0.0.1:57691
+1624013590345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maila\\AppData\\Local\\Temp\\rust_mozprofileUapM3y"
+1624013590809	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maila\\AppData\\Local\\Temp\\rust_mozprofileUapM3y\\search.json.mozlz4", (void 0)))
+1624013592601	Marionette	INFO	Listening on port 57700
+1624013593038	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://flight.easemytrip.com/Scripts/ApiCallLight_new.js?v=23er, line 6483: unreachable code after return statement
+1624013623518	Marionette	INFO	Stopped listening on port 57700
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624013645157	geckodriver	INFO	Listening on 127.0.0.1:62475
+1624013648222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maila\\AppData\\Local\\Temp\\rust_mozprofiledg7JjS"
+1624013648446	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maila\\AppData\\Local\\Temp\\rust_mozprofiledg7JjS\\search.json.mozlz4", (void 0)))
+1624013649952	Marionette	INFO	Listening on port 62483
+1624013650281	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://flight.easemytrip.com/Scripts/ApiCallLight_new.js?v=23er, line 6483: unreachable code after return statement
+1624013680094	Marionette	INFO	Stopped listening on port 62483
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
