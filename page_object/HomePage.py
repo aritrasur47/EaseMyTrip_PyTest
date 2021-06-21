@@ -39,6 +39,7 @@ class HomePage:
 
     business_class_value = "3"
     level_check = (By.XPATH, f"//div[@id='myDropdown_n']/div/label[{business_class_value}]")
+
     done_button = (By.CSS_SELECTOR, ".dn_btn")
     search_button = (By.CSS_SELECTOR, ".src_btn")
 
@@ -96,7 +97,7 @@ class HomePage:
         return done_button
 
     def search_button_option(self):
+        # self.driver.find_element(*HomePage.search_button)
         search_button = self.driver.find_element(*HomePage.search_button).click()
         booking_page = BookingPage(self.driver)
         return booking_page
-

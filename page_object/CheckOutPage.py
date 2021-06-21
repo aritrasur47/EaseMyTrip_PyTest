@@ -24,7 +24,7 @@ class CheckOutPage:
         return checkbox_deselect
 
     def email_option(self):
-        email = self.driver.find_element(*CheckOutPage.email).send_keys("aritrasur47@example.com")
+        email = self.driver.find_element(*CheckOutPage.email)
         return email
 
     def continue_booking_option(self):
